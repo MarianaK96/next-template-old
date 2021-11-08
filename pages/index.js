@@ -1,19 +1,19 @@
-import Head from 'next/head'
-import styled from 'styled-components'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styled from "styled-components";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
 const Wrapper = styled.header`
-  background-color: lightcoral;
+  background-color: lightblue;
   height: 50px;
   width: 50px;
-`
+`;
 
 const Footer = styled.footer`
-  background-color: lightblue;
+  background-color: lightcoral;
   display: flex;
-  height: 500px;
-`
+  height: 60px;
+`;
 
 export default function Home() {
   return (
@@ -24,22 +24,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Wrapper >
-        Hello Mar'suv
-      </Wrapper>
+      <Wrapper>Hello Mar'suv</Wrapper>
 
-      <Footer >
+      <Footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </Footer>
     </div>
-  )
+  );
 }
