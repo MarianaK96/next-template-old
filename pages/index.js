@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styled from "styled-components";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 const Wrapper = styled.header`
   background-color: lightblue;

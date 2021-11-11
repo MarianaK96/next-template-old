@@ -1,3 +1,3 @@
 import HeaderCategories from "./HeaderCategories";
 
-export { HeaderCategories };
+export default HeaderCategories;

@@ -1,10 +1,12 @@
-import React from 'react';
-import { Wrapper } from './Button.style'
+import React from "react";
+import { ButtonStyle } from "./Button.style";
 
 const Button = () => {
-    return (<Wrapper>
-        button
-    </Wrapper>);
-}
+  return (
+    <ButtonStyle>
+      <a href="">themes</a>
+    </ButtonStyle>
+  );
+};
 
 export default Button;
