@@ -8,3 +8,14 @@ body {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --plum: #9f9aa4;
+  --plum-dark: #848188;
+  --powder: #e7cfcd;
+  --mint: #cfd8d7;
+  --lime: #b5c9c3;
+  --lime-dark: #455755;
+  --lipstick: #cab1bd;
+  --lipstick-dark: #a88886;
+}

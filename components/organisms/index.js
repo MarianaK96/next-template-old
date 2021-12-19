@@ -1,4 +1,3 @@
-import Header from "./Header";
-import TitleAndBtn from "./TitleAndBtn";
+import Component from "./Component";
 
-export { Header, TitleAndBtn };
+export { Component };

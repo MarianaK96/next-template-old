@@ -1,19 +1,11 @@
-import React, { useState } from "react";
-import { Button, Title, Subtitle } from "common_components/atoms";
-import { Header, TitleAndBtn } from "components/organisms";
-import { HomeWrapper } from "./home.styles";
+import { Home } from "components/templates";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
-      <HomeWrapper>
-        <Header />
-        <TitleAndBtn />
-      </HomeWrapper>
+      <Home />
     </>
   );
 };
 
-export default Home;
-
-//wrapper on whole component, not just button and styles
+export default HomePage;

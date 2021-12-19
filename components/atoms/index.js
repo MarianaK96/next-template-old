@@ -1,3 +1,3 @@
-import HeaderCategories from "./HeaderCategories";
+import Component from "./Component";
 
-export { HeaderCategories };
+export { Component };
